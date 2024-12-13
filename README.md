@@ -1,6 +1,6 @@
 # GenAI_Learning
 GenAI_Learning
-
+https://www.youtube.com/watch?v=UCOgtcwwim4&ab_channel=KrishNaik
 What is generative AI
 
 Generative AI (Gen AI) uses machine learning to create new content like text, images, or code. It automates tasks and supports creativity, transforming how we work and innovate.
