@@ -1,1 +1,291 @@
 
+Open source models
+
+Meta Llama2
+Mistral
+Falcon
+Paid models
+
+Open AI
+Llama2
+AI21 Lab
+Mistral
+Gemini pro AWS : Bed rock - platform - stable diffusion (Image) - at present support OpenAI it's giving API, Fine tuning
+
+
+Generative AI models are broadly categorized based on their design, training methodology, and applications. Here are the primary categories:
+
+1. Text Generation Models
+Purpose: Generate coherent and contextually relevant text.
+Examples: OpenAI's GPT (Generative Pre-trained Transformer), Google's Bard, and Meta's LLaMA.
+Applications: Content creation, summarization, translation, chatbot development, and code generation.
+
+2. Image Generation Models
+Purpose: Create realistic or stylized images from textual descriptions or other inputs.
+Examples: DALL·E, MidJourney, Stable Diffusion.
+Applications: Graphic design, marketing, creative arts, and visual storytelling.
+
+3. Video Generation Models
+Purpose: Produce videos based on textual prompts or manipulate video frames.
+Examples: Runway ML, NVIDIA's Video-to-Video, and PIFuHD (3D human reconstruction).
+Applications: Video editing, synthetic video production, and animation.
+
+4. Audio Generation Models
+Purpose: Generate realistic audio, including music, voice, or sound effects.
+Examples: OpenAI's Jukebox, WaveNet, Descript's Overdub.
+Applications: Music composition, podcasting, dubbing, and audio effects.
+
+5. Speech Generation and Synthesis Models
+Purpose: Convert text into speech with natural intonation and emotions.
+Examples: Amazon Polly, Google Text-to-Speech, Microsoft Azure Speech.
+Applications: Virtual assistants, accessibility tools, and voice cloning.
+
+6. Code Generation Models
+Purpose: Generate or debug programming code.
+Examples: GitHub Copilot, TabNine, DeepCode.
+Applications: Software development, automated code generation, and bug fixes.
+
+7. 3D and Spatial Data Generation Models
+Purpose: Generate or manipulate 3D models and environments.
+Examples: OpenAI's Point-E, NVIDIA's Omniverse, Autodesk AI.
+Applications: Game design, AR/VR development, and product prototyping.
+
+8. Multimodal Models
+Purpose: Handle multiple types of input (e.g., text, images, audio) to produce complex outputs.
+Examples: OpenAI’s CLIP, DeepMind’s Gato, Google's PaLM-E.
+Applications: Interactive AI systems, advanced chatbots, and multimodal content creation.
+
+9. Data-to-Insight Models
+Purpose: Analyze data to generate summaries, predictions, or insights.
+Examples: ChatGPT with analytics plugins, Tableau GPT, and Qlik Sense AI.
+Applications: Business intelligence, predictive modeling, and data storytelling.
+
+10. Scientific and Medical Models
+Purpose: Generate insights or hypotheses for scientific research or medical data interpretation.
+Examples: AlphaFold (protein structure prediction), BioGPT (biomedical data analysis).
+Applications: Drug discovery, genetic analysis, and clinical decision support.
+
+
+Categories and Available LLMs
+
+Text Generation Models
+  LLMs (Free):
+    OpenAI's GPT (GPT-3.5 on free tier via ChatGPT)
+    Hugging Face Models (e.g., BLOOM, GPT-J)
+    Google Bard (free version)
+    Meta’s LLaMA (limited open access for research)
+  LLMs (Paid):
+    GPT-4 (via OpenAI’s ChatGPT Plus or API)
+    Anthropic’s Claude (Paid tier for higher usage limits)
+    Google PaLM 2 (via API)
+    Cohere Command-X
+    Jasper AI
+
+Image Generation Models
+  LLMs (Free):
+    DALL·E 2 (limited access via free tiers)
+    Stable Diffusion (open-source)
+    DeepAI Text-to-Image API (basic free tier)
+  LLMs (Paid):
+    MidJourney (subscription-based)
+    Runway ML
+    Adobe Firefly (included in Adobe subscriptions)
+
+Video Generation Models
+  LLMs (Free):
+    Runway ML (limited free tier)
+    Pictory AI (basic access)
+  LLMs (Paid):
+    Synthesia
+    NVIDIA’s Video-to-Video
+    Veed.io Pro
+
+Audio Generation Models
+  LLMs (Free):
+    Jukebox by OpenAI (open-source for research)
+    Audialab (limited free access)
+  LLMs (Paid):
+    AIVA (for advanced audio composition)
+    Sonantic (acquired by Spotify, custom pricing)
+
+Speech Generation and Synthesis Models
+  LLMs (Free):
+    Google Text-to-Speech (free via GCP trial)
+    Amazon Polly (free tier on AWS)
+  LLMs (Paid):
+    ElevenLabs
+    Microsoft Azure Speech
+    Murf.ai
+
+Code Generation Models
+  LLMs (Free):
+    GitHub Copilot (trial available for limited period)
+    TabNine (basic access)
+  LLMs (Paid):
+    GitHub Copilot (subscription-based)
+    Amazon CodeWhisperer
+    DeepCode (Pro)
+
+3D and Spatial Data Generation Models
+  LLMs (Free):
+    NVIDIA Omniverse (free for individual creators)
+    Blender AI Add-ons (free community models)
+  LLMs (Paid):
+    Point-E by OpenAI
+    Autodesk AI
+    Unreal Engine MetaHuman AI
+
+Multimodal Models
+  LLMs (Free):
+    OpenAI CLIP (open-source)
+    Hugging Face Multimodal Pipelines
+  LLMs (Paid):
+    DeepMind’s Gato
+    OpenAI’s DALL·E 3 (API)
+    Google’s PaLM-E
+
+Data-to-Insight Models
+  LLMs (Free):
+    Tableau Public (basic analytics with AI)
+    Qlik Sense AI Assistant (limited access)
+  LLMs (Paid):
+    Tableau GPT
+    Snowflake Copilot
+    Power BI Copilot
+
+Scientific and Medical Models
+  LLMs (Free):
+    AlphaFold (open for research)
+    BioGPT (free academic version)
+  LLMs (Paid):
+    DeepMind AlphaFold (commercial licenses)
+    PathAI (custom medical models)
+    Tempus Labs
+
+
+-----------------------------------------------
+
+1. Text Generation Models
+Free LLMs:
+GPT-3.5:
+Features: Conversational AI, content generation, summarization.
+Access: Free via OpenAI ChatGPT (with limitations).
+BLOOM (BigScience):
+Features: Multilingual support, open-source.
+Access: Free via Hugging Face.
+GPT-J (EleutherAI):
+Features: Open-source, lightweight for custom use.
+Access: Free through API or Hugging Face.
+Google Bard:
+Features: Conversational AI, integrated with Google services.
+Access: Free for personal use.
+Paid LLMs:
+GPT-4:
+Features: High reasoning, advanced logic, contextual understanding.
+Access: Paid via OpenAI API or ChatGPT Plus.
+Anthropic Claude:
+Features: Safe AI, advanced summarization.
+Access: Paid API with usage tiers.
+Cohere Command-X:
+Features: Optimized for business and enterprise NLP.
+Access: Paid subscription.
+
+2. Image Generation Models
+Free LLMs:
+Stable Diffusion:
+Features: Open-source, customizable, realistic outputs.
+Access: Free for personal and academic use.
+DALL·E 2:
+Features: Image creation from text prompts.
+Access: Limited free access via OpenAI.
+Paid LLMs:
+MidJourney:
+Features: High-quality artistic image creation.
+Access: Subscription starting from $10/month.
+Adobe Firefly:
+Features: Integrated with Adobe products, creative tools.
+Access: Included in Adobe Creative Cloud subscriptions.
+
+3. Video Generation Models
+Free LLMs:
+Runway ML:
+Features: Basic text-to-video functionality.
+Access: Free tier with limited features.
+Paid LLMs:
+Synthesia:
+Features: AI avatars, text-to-video generation.
+Access: Paid plans starting from $30/month.
+Pictory AI:
+Features: Automated video summarization.
+Access: Paid plans starting from $19/month.
+
+4. Audio Generation Models
+Free LLMs:
+Jukebox (OpenAI):
+Features: Music generation in various styles.
+Access: Open-source.
+Paid LLMs:
+AIVA:
+Features: AI-composed music for games and media.
+Access: Paid plans starting from €15/month.
+
+5. Speech Generation Models
+Free LLMs:
+Google TTS:
+Features: Natural speech synthesis.
+Access: Free with GCP trial.
+Paid LLMs:
+ElevenLabs:
+Features: High-fidelity voice cloning.
+Access: Paid plans starting from $5/month.
+
+6. Code Generation Models
+Free LLMs:
+TabNine:
+Features: Lightweight code completion.
+Access: Free basic plan.
+Paid LLMs:
+GitHub Copilot:
+Features: AI-powered code suggestions.
+Access: $10/month or included in enterprise plans.
+
+7. 3D and Spatial Data Generation Models
+Free LLMs:
+Blender Add-ons:
+Features: Free AI tools for 3D modeling.
+Access: Free community support.
+Paid LLMs:
+Autodesk AI:
+Features: Advanced spatial data manipulation.
+Access: Subscription pricing.
+
+8. Multimodal Models
+Free LLMs:
+CLIP (OpenAI):
+Features: Text and image understanding.
+Access: Open-source.
+Paid LLMs:
+DeepMind Gato:
+Features: Handles text, image, and robotics data.
+Access: Custom licensing.
+
+9. Data-to-Insight Models
+Free LLMs:
+Qlik Sense AI Assistant:
+Features: Contextual analytics.
+Access: Free for Qlik Sense users.
+Paid LLMs:
+Tableau GPT:
+Features: Integrated predictive insights.
+Access: Included in Tableau enterprise plans.
+
+10. Scientific and Medical Models
+Free LLMs:
+BioGPT:
+Features: Specialized for biomedical research.
+Access: Free via academic partnerships.
+Paid LLMs:
+PathAI:
+Features: Pathology analysis with AI.
+Access: Enterprise pricing.
+
