@@ -50,6 +50,7 @@ Generative AI (Gen AI) uses machine learning to create new content like text, im
     1. Meta Llama2
     2. Mistral
     3. Falcon
+       
    Paid models
     1. Open AI
     2. Llama2
